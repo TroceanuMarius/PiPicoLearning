@@ -1,0 +1,99 @@
+/* General styles */
+body {
+    background-image: url("images/Raspberry-Pi-Pico-2439205467.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+  }
+  
+  button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding: 10px 24px;
+  }
+  
+  nav a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    background-color: #4CAF50; /* Green */
+    padding: 10px;
+    margin-bottom: 2px;
+  }
+  
+  /* Header styles */
+  header {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  /* Main menu styles */
+  #menuButton {
+    margin-right: 10px;
+  }
+  #rememberMe{
+    display: inline;
+  }
+  #menu {
+    position: fixed;
+    background-color: #4CAF50;
+    padding: 10px;
+    z-index: 10;
+    display: none;
+    flex-direction: column;
+    right: 10px;
+    top: 50px;
+  }
+  
+  /* Login form styles */
+  #loginForm {
+    display: inline-block;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #4CAF50;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: inline-block;
+    width: 100px;
+  }
+  
+  /* Side menu styles */
+  .side-menu-btn {
+    position: fixed;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    z-index: 20;
+  }
+  
+  #sideMenu {
+    position: fixed;
+    left: -200px;
+    top: 0;
+    bottom: 0;
+    width: 200px;
+    background-color: #4CAF50;
+    padding: 20px;
+    overflow-y: auto;
+    transition: left 0.3s ease-in-out;
+  }
+  

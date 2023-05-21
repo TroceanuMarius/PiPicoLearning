@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teaching Website</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <button id="menuButton">Meniu</button>
+    <nav id="menu" hidden>
+      <a id="home" href="index.html">Acasa</a>
+      <a id="learning" href="learning.html">Lectii</a>
+      <a id="about" href="about.html">About</a>
+      <button class="btnLogin-popup">Login</button>
+    </nav>
+  </header>
+
+  <!-- Home page content -->
+  <section id="homePage">
+    <h1>Welcome to the Teaching Website!</h1>
+    <div class="wrapper">
+      <div class="box-login-form">
+        <h2>Login</h2>
+        <form action="#">
+          <div class="box-input">
+            <span class="icon"><ion-icon name="mail-outline"></ion-icon></span>
+            <input type="email" required>
+            <label>Email</label>
+          </div>
+          <div class="box-input">
+            <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></span>
+            <input type="password" required>
+            <label>Password</label>
+          </div>
+          <div class="remember-forgot">
+            <label id="rememberMe"><input type="checkbox">
+            Remember me</label>
+            <a href="#">Forgot Passowrd?</a>
+          </div>
+          <button type="submit" class="btn">Login</button>
+          <div class="login-register">
+            <p>Don't have an account? <a href="#" class="register-link">Register</a></p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <script src="scripts.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
